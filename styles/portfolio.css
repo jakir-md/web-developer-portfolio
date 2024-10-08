@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.text-primary{
+    color: #FD6E0A
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* navigation bar design */
+header {
+    background-color: #FFF8F3;
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    padding-top: 30px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 175px;
+}
+
+#nav-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+#nav-list > li{
+    list-style: none;
+}
+
+#nav-list > li a {
+    text-decoration: none;
+}
+
+.nav-title {
+    font-weight: 800px;
+    font-size: 45px;
+}
+
+
+
+/* banner design */
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 35px 0 175px;
+    align-items: center;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}  
+.banner-title{
+    font-size: 80px;
+    font-weight: bold;
+}
+.all-buttons{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
